@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">calc_operacoes_basicas</string>
+    <string name="resultado">resultado</string>
+    <string name="div">div</string>
+    <string name="mult">mult</string>
+    <string name="menos">menos</string>
+    <string name="mais">mais</string>
+    <string name="Número2">numero2</string>
+    <string name="numero1">numero1</string>
+    <string name="Numero1">Número 1</string>
+    <string name="Numero2">Número 2</string>
+    <string name="Resultado">Resultado</string>
+</resources>

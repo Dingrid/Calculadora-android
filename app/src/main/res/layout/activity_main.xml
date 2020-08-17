@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/Numero1" />
+
+    <EditText
+        android:id="@+id/txtNum1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:inputType="number" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/Numero2" />
+    <EditText
+        android:id="@+id/txtNum2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/btnmenos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menos"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteY="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnmais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mais"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteY="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnmult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mult"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteY="10dp"
+       />
+
+    <Button
+        android:id="@+id/btndiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/div"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteY="10dp"
+      />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/Resultado"
+        />
+</LinearLayout>
+
